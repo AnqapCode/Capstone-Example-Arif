@@ -127,3 +127,4 @@ Proyek ini menunjukkan bahwa LLM modern seperti IBM Granite adalah alat yang san
 - **Arif Cahyo Wibisono**
 - [LinkedIn](https://linkedin.com/in/arif-cahyo-wibisono)
 - [GitHub](https://github.com/AnqapCode)
+- [Instagram](https://www.instagram.com/arichy_w9)

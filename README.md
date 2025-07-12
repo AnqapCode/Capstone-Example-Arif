@@ -7,6 +7,8 @@
 
 Proyek ini mendemonstrasikan bagaimana Large Language Model (LLM) modern, khususnya IBM Granite 8B Instruct, dapat dimanfaatkan tidak hanya untuk tugas klasifikasi biner tetapi juga untuk ekstraksi insight kualitatif pada kasus deteksi URL phishing.
 
+- **Dataset**: [PhiUSIIL Phishing URL Dataset](https://www.kaggle.com/datasets/ndarvind/phiusiil-phishing-url-dataset/data)
+
 ---
 
 ## Daftar Isi
@@ -65,14 +67,14 @@ Proyek ini dirancang untuk berjalan di lingkungan Google Colab.
    ```
 
 3. **Setup API Key**
-   Untuk menggunakan model via Replicate, Anda memerlukan API Token. Simpan token Anda sebagai "Secret" di Google Colab dengan nama REPLICATE_API_TOKEN.
+   Untuk menggunakan model via Replicate, Anda memerlukan API Token. Simpan token Anda sebagai "Secret" di Google Colab dengan nama "api_token".
 
 ---
 
 ## Cara Menjalankan
 
 1. Buka file notebook `Phishing_URL_Analysis.ipynb` di Google Colab.
-2. Pastikan Anda telah mengatur secret `REPLICATE_API_TOKEN` di environment Colab Anda.
+2. Pastikan Anda telah mengatur secret `"api_token"` di environment Colab Anda.
 3. Jalankan semua sel secara berurutan dari atas ke bawah.
    - **Persiapan Data**: Memuat dataset dari Kaggle.
    - **Analisis Model**: Melakukan klasifikasi dan evaluasi performa.
